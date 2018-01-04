@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_dark_title">#333333</color>
+    <color name="index_bg">#f8f8f8</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dividColor">#e6e6e6</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0fa7e2</color>
+    <color name="blueViolet">#dbf5ff</color>
+    <color name="tab_txt_color_pressed">#cc0000</color>
+    <color name="skyBlue">#87ceeb</color>
+    <color name="select_address_seleced">#f3f3f3</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- 蓝紫罗兰 -->
+    <color name="cornflowerBlue">#6495ed</color>
+    <!-- 道奇蓝 -->
+    <color name="btn_no_confrim">#cccccc</color>
+    <color name="dodqerBlue">#1E90FF</color>
+    <color name="black">#333333</color>
+    <!-- 矢车菊兰 -->
+    <color name="lavender">#E6E6FA</color>
+    <color name="btntextcolor">#ff1E90FF</color>
+    <!-- dialog中按钮字体颜色 -->
+    <color name="green">#99cc33</color>
+    <color name="bg_content">#f0f1f5</color>
+    <color name="divide_line">#e6e6e6</color>
+    <color name="txt_title">#252525</color>
+    <color name="txt_content">#666666</color>
+    <color name="txt_hint">#999999</color>
+    <color name="lineColor">#D3D3D3</color>
+    <color name="ta_bar">#f7f7f8</color>
+    <color name="txt_tab">#797b87</color>
+    <color name="btn_click">#ffffff</color>
+    <color name="txt_tab_pressed">#dd2e2b</color>
+    <color name="txt_tab_focused">#bd2422</color>
+    <color name="lv_select">#dfdfdf</color>
+    <color name="bind_phone">#FDF9D9</color>
+    <color name="boder_color">#e35d50</color>
+    <color name="txt_bg_color">#f7f7f7</color>
+    <color name="status_view">#50000000</color>
+    <color name="txt_login_statuts">#363636</color>
+    <color name="txt_unlogin">#878787</color>
+    <color name="login_bg">#f8f8f8</color>
+    <color name="share_bg">#f4f4f4</color>
+    <color name="txt_edt_hint">#b3b3b3</color>
+    <color name="search_result">#ececec</color>
+    <color name="header_attention_btn">#2a90d7</color>
+    <color name="txt_red_post">#e9361e</color>
+    <color name="audit_writer_info">#f06755</color>
+    <color name="writer_edit_bg">#f5f5f5</color>
+    <color name="writer_divid_line">#ededed</color>
+    <color name="txt_ads_tag">#3c9adb</color>
+</resources>

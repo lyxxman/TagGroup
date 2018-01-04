@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:auto="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codeman.main.MainActivity">
+
+    <!-- view for AdMob Interstitial Ad -->
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/interstitial_ad_sample"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_title"
+        android:layout_centerHorizontal="true"
+        android:text="@string/start_level"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.codeman.view.TagGroup
+        android:id="@+id/tag_groups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/level"
+        auto:atg_backgroundColor="@color/txt_bg_color"
+        auto:atg_borderColor="@color/red"
+        auto:atg_borderStrokeWidth="0.5dip"
+        auto:atg_checkedBackgroundColor="@color/txt_bg_color"
+        auto:atg_checkedBorderColor="@color/dividColor"
+        auto:atg_checkedMarkerColor="@color/white"
+        auto:atg_checkedTextColor="@color/txt_login_statuts"
+        auto:atg_horizontalPadding="@dimen/height_10"
+        auto:atg_isAppendMode="false"
+        auto:atg_pressedBackgroundColor="@color/txt_bg_color"
+        auto:atg_textColor="@color/txt_login_statuts"
+        auto:atg_textSize="@dimen/text_size_14"
+        auto:atg_radius="@dimen/height_5"
+        auto:atg_verticalPadding="@dimen/height_10" />
+
+    <Button
+        android:id="@+id/next_level_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/next_level" />
+</RelativeLayout>

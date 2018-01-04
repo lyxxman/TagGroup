@@ -1,0 +1,199 @@
+<resources>
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="TagGroup">
+
+        <item name="android:layout_width">match_parent</item>
+
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="atg_isAppendMode">false</item>
+
+
+        <item name="atg_borderColor">#49C120</item>
+
+        <item name="atg_textColor">#49C120</item>
+
+        <item name="atg_backgroundColor">#FFFFFF</item>
+
+        <item name="atg_dashBorderColor">#AAAAAA</item>
+
+        <item name="atg_inputHintColor">#80000000</item>
+
+        <item name="atg_inputTextColor">#DE000000</item>
+
+        <item name="atg_checkedBorderColor">#49C120</item>
+
+        <item name="atg_checkedTextColor">#FFFFFF</item>
+
+        <item name="atg_checkedMarkerColor">#FFFFFF</item>
+
+        <item name="atg_checkedBackgroundColor">#49C120</item>
+
+        <item name="atg_pressedBackgroundColor">#EDEDED</item>
+
+        <item name="atg_borderStrokeWidth">0.5dp</item>
+
+        <item name="atg_textSize">13sp</item>
+
+        <item name="atg_horizontalSpacing">8dp</item>
+
+        <item name="atg_verticalSpacing">4dp</item>
+
+        <item name="atg_horizontalPadding">12dp</item>
+
+        <item name="atg_verticalPadding">3dp</item>
+
+    </style>
+
+
+    <style name="TagGroup.Small" parent="TagGroup">
+
+        <item name="atg_textSize">10sp</item>
+
+        <item name="atg_horizontalSpacing">6dp</item>
+
+        <item name="atg_verticalSpacing">3dp</item>
+
+        <item name="atg_horizontalPadding">8dp</item>
+
+        <item name="atg_verticalPadding">2dp</item>
+
+    </style>
+
+
+    <style name="TagGroup.Large" parent="TagGroup">
+
+        <item name="atg_borderStrokeWidth">0.7dp</item>
+
+        <item name="atg_textSize">15sp</item>
+
+        <item name="atg_horizontalSpacing">9dp</item>
+
+        <item name="atg_verticalSpacing">5dp</item>
+
+        <item name="atg_horizontalPadding">14dp</item>
+
+        <item name="atg_verticalPadding">4dp</item>
+        <item name="atg_borderColor">@color/lineColor</item>
+
+        <item name="atg_textColor">@color/txt_content</item>
+
+        <item name="atg_checkedBorderColor">@color/txt_content</item>
+
+        <item name="atg_checkedBackgroundColor">@color/txt_content</item>
+        <item name="atg_checkedTextColor">@color/white</item>
+    </style>
+
+
+    <style name="TagGroup.Beauty_Red" parent="TagGroup">
+
+        <item name="atg_borderColor">#FF3D7F</item>
+
+        <item name="atg_textColor">#FF3D7F</item>
+
+        <item name="atg_checkedBorderColor">#FF3D7F</item>
+
+        <item name="atg_checkedBackgroundColor">#FF3D7F</item>
+
+    </style>
+
+
+    <declare-styleable name="TagGroup">
+
+        <!-- Whether the tag group is in append mode. -->
+
+
+        <attr name="atg_isAppendMode" format="boolean" />
+
+        <!-- If the tag group is in append mode, what the hint of input tag. -->
+
+
+        <attr name="atg_inputHint" format="string" />
+
+        <!-- The tag view outline border color. -->
+
+
+        <attr name="atg_borderColor" format="color" />
+
+        <!-- The tag view text color. -->
+
+
+        <attr name="atg_textColor" format="color" />
+
+        <!-- The tag view background color. -->
+
+
+        <attr name="atg_backgroundColor" format="color" />
+
+        <!-- The dash outline border color, when in append mode. -->
+
+
+        <attr name="atg_dashBorderColor" format="color" />
+
+        <!-- The input tag hint text color, when in append mode. -->
+
+
+        <attr name="atg_inputHintColor" format="color" />
+
+        <!-- The input tag type text color, when in append mode. -->
+
+
+        <attr name="atg_inputTextColor" format="color" />
+
+        <!-- The checked tag view outline border color. -->
+
+
+        <attr name="atg_checkedBorderColor" format="color" />
+
+        <!-- The checked text color. -->
+
+
+        <attr name="atg_checkedTextColor" format="color" />
+
+        <!-- The checked marker color. -->
+
+
+        <attr name="atg_checkedMarkerColor" format="color" />
+
+        <!-- The checked tag view background color. -->
+
+
+        <attr name="atg_checkedBackgroundColor" format="color" />
+
+        <!-- The tag view background color, when the tag view is being pressed. -->
+
+
+        <attr name="atg_pressedBackgroundColor" format="color" />
+
+        <!-- The tag view outline border stroke width. -->
+
+
+        <attr name="atg_borderStrokeWidth" format="dimension" />
+
+        <!-- The tag view text size. -->
+
+
+        <attr name="atg_textSize" format="dimension" />
+
+        <attr name="atg_horizontalSpacing" format="dimension" />
+
+        <attr name="atg_verticalSpacing" format="dimension" />
+
+        <attr name="atg_horizontalPadding" format="dimension" />
+
+        <attr name="atg_verticalPadding" format="dimension" />
+        <attr name="atg_radius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="Themes">
+
+        <attr name="tagGroupStyle" format="reference" />
+
+    </declare-styleable>
+
+</resources>
