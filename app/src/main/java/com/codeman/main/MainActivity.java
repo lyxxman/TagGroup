@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         // Create the text view to show the level number.
         mLevelTextView = (TextView) findViewById(R.id.level);
         mTagGroups = (TagGroup) findViewById(R.id.tag_groups);
-        mTagGroups.setTags(new String[]{"葡萄酒","白酒","红酒","鸡尾酒","82年拉菲酒"});
+        mTagGroups.setTags(new String[]{"葡萄酒","白酒","红酒","鸡尾酒","82年拉菲酒","则饿啊","则饿啊","则饿啊"});
         mLevel = START_LEVEL;
 
         // Create the InterstitialAd and set the adUnitId (defined in values/strings.xml).

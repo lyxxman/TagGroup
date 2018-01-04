@@ -48,9 +48,9 @@ import java.util.List;
  * is not focusable.
  * </p>
  *
- * @author Jun Gu (http://2dxgujun.com)
- * @version 2.0
- * @since 2015-2-3 14:16:32
+ * @author ly
+ * @version 3.0
+ * @since 2018年1月4日 17:13:57
  */
 public class TagGroup extends ViewGroup {
     private final int default_border_color = Color.rgb(0x49, 0xC1, 0x20);
